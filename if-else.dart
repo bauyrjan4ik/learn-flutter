@@ -78,7 +78,7 @@ void main() {
   int age = 16;
   bool hasTicket = true;
 
-  if (age >= 18 || hasTicket == true) {
+  if (age >= 18 && hasTicket == true) {
     print("Добро пожаловать!");
   } else {
     print("Взод запрещен!");
