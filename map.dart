@@ -91,4 +91,25 @@ void main() {
   countryInfo["area"] = 9;
   countryInfo.remove("population");
   print(countryInfo);
+
+  final cities = ['Astana', 'Almaty', 'Shymkent'];
+
+  print(cities[1]);
+
+  final fruitss = <String>['Apple', 'Banana', 'Orange', 'Banana'];
+
+  print(fruitss);
+
+  final infoUser = {'name': 'Almas', 'age': 23, 'city': 'Astana'};
+
+  print(infoUser['name']);
+
+  final users = [
+    {'name': 'Dias', 'age': 20, 'city': 'Astana,'},
+    {'name': 'Ali', 'age': 25, 'city': 'Almaty'},
+  ];
+
+  print(users[0]['name']);
+  print(users[0]['city']);
+  print(users[1]['name']);
 }

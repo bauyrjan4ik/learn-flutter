@@ -124,8 +124,4 @@ void main() {
     default:
       print('такого сотрудника не существует');
   }
-
-  for (var i = 0; i < 5; i++) {
-    print('Hello');
-  }
 }
